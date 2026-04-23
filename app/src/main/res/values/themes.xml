@@ -1,1 +1,4 @@
-
+<!-- فایل: app/src/main/res/values/themes.xml -->
+<resources>
+    <style name="Theme.WifiSecurityScanner" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
