@@ -1,0 +1,195 @@
+# فایل: .gitignore
+# ============================================
+# این فایل مخصوص پروژه Wifi Security Scanner
+# ============================================
+
+##############################
+# Gradle wrapper files (باینری)
+##############################
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties.bin
+/gradle/wrapper/.gradle-wrapper
+
+##############################
+# Gradle build files (موقتی)
+##############################
+.gradle/
+build/
+*/build/
+*/buildSrc/build/
+captures/
+.gradle-settings/
+.gradle-build-cache/
+gradle-app.setting
+gradle/wrapper/gradle-wrapper.jar
+buildSrc/
+
+##############################
+# Android Studio files
+##############################
+*.iml
+.idea/
+.DS_Store
+local.properties
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/deploymentTargetDropDown.xml
+.idea/runConfigurations/
+*.iws
+out/
+
+##############################
+# Build outputs
+##############################
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+debug/
+
+##############################
+# Native files (C/C++)
+##############################
+*.so
+*.dll
+*.dylib
+*.o
+*.obj
+*.exe
+*.pdb
+*.exp
+*.ilk
+*.lib
+jniLibs/
+obj/
+
+##############################
+# Logs and temp files
+##############################
+*.log
+*.temp
+*.tmp
+*.swp
+*.swo
+*~
+*.lock
+hs_err_pid*
+
+##############################
+# Keystore files (امضای اپلیکیشن)
+##############################
+*.jks
+*.keystore
+*.pem
+*.pk8
+*.p12
+keystore/
+debug.keystore
+release.keystore
+
+##############################
+# OS specific files
+##############################
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+*.swp
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+*.directory
+
+##############################
+# Version control
+##############################
+*.orig
+*.rej
+*.patch
+*.diff
+
+##############################
+# Testing
+##############################
+/test-results/
+/test-coverage/
+/coverage/
+/build/reports/
+*.test
+*.testResults
+*.exec
+
+##############################
+# Secrets and sensitive data
+##############################
+secrets/
+keys/
+*.pwd
+*.secret
+api_keys.txt
+google-services.json
+GoogleService-Info.plist
+firebase-debug.log
+
+##############################
+# CI/CD
+##############################
+.github/.DS_Store
+.github/workflows/.DS_Store
+
+##############################
+# Backup files
+##############################
+*.bak
+*.backup
+*.old
+*.orig
+
+##############################
+# Temporary files from editors
+##############################
+.idea/shelf/
+.idea/codeStyles/
+.idea/tasks.xml
+*.hprof
+*.pyc
+
+##############################
+# Project specific (Wifi Scanner)
+##############################
+# فایل‌های دیتابیس محلی
+wifi_database.db
+wifi_database.db-shm
+wifi_database.db-wal
+
+# فایل‌های اسکن ذخیره شده
+scans/
+saved_scans/
+*.wifi_scan
+
+# فایل‌های نمودار
+charts/
+*.chart
