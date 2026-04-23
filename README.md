@@ -1,24 +1,23 @@
-MIT License
+# 📡 Wifi Security Scanner
 
-Copyright (c) 2026 Enayatullah Haqqani 
+[![Kotlin](https://img.shields.io/badge/Kotlin-1.9.20-blue.svg)](https://kotlinlang.org)
+[![Compose](https://img.shields.io/badge/Jetpack%20Compose-1.5.8-green.svg)](https://developer.android.com/jetpack/compose)
+[![API](https://img.shields.io/badge/API-23%2B-brightgreen.svg)](https://android-arsenal.com/api?level=23)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**یک اپلیکیشن پیشرفته اندروید برای اسکن وای‌فای و تشخیص شبکه‌های جعلی (Evil Twin)**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+## ✨ ویژگی‌ها
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+- 🔍 اسکن لحظه‌ای شبکه‌های وای‌فای
+- 📶 نمایش قدرت سیگنال با گراف دقیق
+- 🛡️ تشخیص شبکه دوقلو (Evil Twin)
+- 🔐 تست امنیت رمز عبور
+- 📊 ذخیره تاریخچه اسکن‌ها
+- 🎨 رابط کاربری Material Design 3
 
+## 📱 نیازمندی‌ها
+
+- Android 6.0 (API 23) یا بالاتر
+- دسترسی موقعیت مکانی
 # WifiSecurityScanner
 Advanced WiFi Security Scanner with Evil Twin Detection
