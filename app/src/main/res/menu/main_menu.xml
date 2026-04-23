@@ -1,1 +1,13 @@
-
+<!-- فایل: app/src/main/res/menu/main_menu.xml -->
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_history"
+        android:title="تاریخچه"
+        android:icon="@drawable/ic_launcher"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_password_test"
+        android:title="تست رمز"
+        android:showAsAction="ifRoom" />
+</menu>
